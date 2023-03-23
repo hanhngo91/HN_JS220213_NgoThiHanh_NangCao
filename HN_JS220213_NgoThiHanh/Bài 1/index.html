@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài 1_Feedback</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/be2be59f23.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <h2>Feedback TA</h2>
+        <div class="main">
+          <div class="main-field">
+            <h3>Thầy Phú dạy em có hay không?</h3>
+            <div class="options">
+              <button id="1" class="button">1</button>
+              <button id="2" class="button">2</button>
+              <button id="3" class="button">3</button>
+              <button id="4" class="button">4</button>
+              <button id="5" class="button">5</button>
+              <button id="6" class="button">6</button>
+              <button id="7" class="button">7</button>
+              <button id="8" class="button">8</button>
+              <button id="9" class="button">9</button>
+              <button id="10" class="button">10</button>
+            </div>
+            <div class="input-field">
+              <div class="input-text">
+                <input
+                  id="inputValue"
+                  type="text"
+                  placeholder="Write a review"
+                />
+                <button onclick="sendFeedback()">Send</button>
+              </div>
+              <div class="error">
+                <span>Text must be at least 10 characters</span>
+              </div>
+            </div>
+          </div>
+          <div class="side-content">
+            <div class="side">
+              <div class="count"><span id="count">0</span> Reviews</div>
+              <div class="rating">Average rating: <span>0</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div id="sub-content">
+          <!-- <div class="review">
+            <div class="box">
+              <div class="text-field">
+                <div class="text"></div>
+                <div class="num"><span>0</span></div>
+                <div class="icons">
+                  <button onclick="editReview()">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                  </button>
+                  <button onclick="deleteReview()">
+                    <i class="fa-solid fa-xmark"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="review">
+            <div class="box">
+              <div class="text-field">
+                <div class="text"></div>
+                <div class="num"><span>0</span></div>
+                <div class="icons">
+                  <button onclick="editReview()">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                  </button>
+                  <button onclick="deleteReview()">
+                    <i class="fa-solid fa-xmark"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

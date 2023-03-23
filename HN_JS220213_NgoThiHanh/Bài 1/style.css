@@ -1,0 +1,145 @@
+:root {
+  --pink: rgb(245, 89, 125);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+}
+.content {
+  width: 100%;
+}
+.content h2 {
+  width: 100%;
+  background-color: black;
+  color: rgb(245, 89, 125);
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+}
+.main {
+  width: 100%;
+  background-color: rgb(48, 48, 79);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-field {
+  width: 70%;
+  background-color: white;
+  margin: 2rem auto;
+  border-radius: 1rem;
+  padding-bottom: 1.5rem;
+}
+h3 {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+.options {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.options .button {
+  border: 1px solid rgb(245, 89, 125);
+  padding: 0.3rem 0.7rem;
+  margin: 0.5rem 0.5rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+.options .button1 {
+  color: white;
+  background-color: var(--pink);
+  cursor: pointer;
+}
+.options .button:hover {
+  color: white;
+  background-color: var(--pink);
+  cursor: pointer;
+}
+
+.input-text {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.input-text input {
+  width: 80%;
+  height: 2.5rem;
+}
+.input-text button {
+  position: absolute;
+  right: 7rem;
+  top: 0.5rem;
+  padding: 0.3rem 0.5rem;
+}
+.input-field .error {
+  display: none;
+  margin: 1rem;
+  justify-content: center;
+}
+.side-content {
+  margin-bottom: 1rem;
+}
+.main .side {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+
+#sub-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(48, 48, 79);
+}
+.review {
+  background-color: white;
+  border-radius: 1rem;
+  height: 3rem;
+  margin-bottom: 2rem;
+}
+.sub-content {
+  width: 100%;
+}
+.review {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}
+.text-field {
+  position: relative;
+  padding-top: 1rem;
+}
+
+.text-field .num span {
+  position: absolute;
+  top: -0.5rem;
+  left: -32rem;
+  right: 13rem;
+  border: 1px solid var(--pink);
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: var(--pink);
+  color: white;
+}
+.text-field .icons {
+  position: absolute;
+  display: flex;
+  top: 0.3rem;
+  left: 28rem;
+  right: rem;
+}
+.text-field .icons button {
+  margin: 0 0.3rem;
+  border: none;
+}
